@@ -1,5 +1,5 @@
 
-![Example of the completed activity](assets\examples\completed-styles.jpg)
+![Example of the completed activity](assets/examples/completed-styles.jpg)
 
 # Furever Friends Pet Rescue Landing Page
 
