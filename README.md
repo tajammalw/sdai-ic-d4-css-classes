@@ -6,9 +6,9 @@
 ## Description 📄
 For this assignment, our team has been hired to create a visually appealing landing page for a growing pet adoption shelter, Furever Friends Pet Rescue.
 
-Your task is to apply CSS class selectors to style various elements on the page. CSS class selectors empower you to create professional and maintainable web designs, which enhances your career as a web developer.
+You are a junior developer learning the ropes, and your task is to learn and apply CSS class selectors to style various elements on the page. This will empower you to create professional and maintainable web designs, which will open doors for your career as a web developer.
 
-Now, let's elevate your CSS skills by practicing with class selectors and understanding how to apply styles consistently.
+Now, let's elevate your CSS skills by practicing some class selectors and understanding how to apply styles consistently to a project.
 
 ---
 
