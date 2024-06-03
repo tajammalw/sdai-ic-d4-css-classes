@@ -83,16 +83,24 @@ Now, let's elevate your CSS skills by practicing some class selectors and unders
 
     **Explanation**: The `:hover` pseudo-class is used to apply styles to an element when the user hovers over it with a mouse. This is commonly used to enhance user interaction and provide visual feedback. In this case, when the user hovers over a navigation link, it will underline the text and change the color to a lighter shade, making the link more noticeable.
 
+7. [ ] Notice the dots way off on the left side of the screen? They're from our `<ul>` which would normally have bullets. We want to remove the bullets from the ul in our nav, so we'll target it and then apply `list-style: none;` to our `<ul>`: 
+    ```css
+    nav ul {
+        list-style: none;
+    }
+    ```
+    **Explanation**: Using the `list-style` property allows us to change how lists look. By writing `nav ul` with a space between the element selectors like that, we tell the browser to apply our code only to `<ul>` elements found inside of a `<nav>` element, which will keep it from removing bullets from lists in other parts of our site. 
+
 ### Adjusting Image Sizes
 
-7. [ ] In your HTML file, locate the `<img>` elements and add the `class="pet-img"` attribute to each:
+8. [ ] In your HTML file, locate the `<img>` elements and add the `class="pet-img"` attribute to each:
 
     ```html
     <img src="assets/images/dog.jpg" alt="Adopt a Dog" class="pet-img" />
     <img src="assets/images/cat.jpg" alt="Adopt a Cat" class="pet-img" />
     ```
 
-8. [ ] Style the `pet-img` class in your `styles.css` file:
+9. [ ] Style the `pet-img` class in your `styles.css` file:
 
     ```css
     .pet-img {
@@ -100,11 +108,11 @@ Now, let's elevate your CSS skills by practicing some class selectors and unders
     }
     ```
 
-    **Recall**: In responsive design, using `vh` (viewport height) helps to have adaptable heights that adjust to different screens.
+    **Recall**: In responsive design, using `vh` (viewport height) helps us have adaptable heights that adjust to different screens.
 
 ### Styling the Footer
 
-9. [ ] In your HTML file, locate the `<footer>` element and add the `class="footer"` attribute to it:
+10. [ ] In your HTML file, locate the `<footer>` element and add the `class="footer"` attribute to it:
 
     ```html
     <footer class="footer">
@@ -112,7 +120,7 @@ Now, let's elevate your CSS skills by practicing some class selectors and unders
     </footer>
     ```
 
-10. [ ] Style the `footer` class in your `styles.css` file:
+11. [ ] Style the `footer` class in your `styles.css` file:
 
     ```css
     .footer {
@@ -126,16 +134,16 @@ Now, let's elevate your CSS skills by practicing some class selectors and unders
 
 ### Aligning Text in Sections
 
-11. [ ] What do you think could make the page better? One improvement could be better aligning the text on the page. Add the `class="section"` attribute to each section in your HTML like this:
+12. [ ] What do you think could make the page better? One improvement could be better aligning the text on the page. Add the `class="section"` attribute to each section in your HTML like this:
 
     ```html
-    <section id="about" class="section">
+    <section id="about" class="content-section">
         <h2>About Us</h2>
         <p>We are a non-profit organization dedicated to rescuing and finding homes for abandoned pets.</p>
     </section>
     ```
 
-12. [ ] Style the `section` class in your `styles.css` file to update all sections at once:
+13. [ ] Style the `content-section` class in your `styles.css` file to update all sections at once:
 
     ```css
     .section {
@@ -147,7 +155,7 @@ Now, let's elevate your CSS skills by practicing some class selectors and unders
 
 🎊 **AWESOME WORK! You just created a beautifully styled header, navigation bar, and sections with hover effects and centered text! 💃🏻🕺🏾** 🎊
 
-While there's more to be done to this page in future activities, you've already learned and done a lot to greatly improve the page's appearance.
+While there's more to be done to this page in future activities, such as creating a properly styled menu, you've already learned a lot and greatly improved the page's appearance. Congratulations!
 
 ---
 
