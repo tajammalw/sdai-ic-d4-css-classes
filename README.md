@@ -15,8 +15,8 @@ Now, let's elevate your CSS skills by practicing some class selectors and unders
 ## ToDo list ✅
 **Attention**: When you complete a task, put an `x` in the middle of the brackets to mark it off your ToDo list.
 
-1. [ ] Create a new CSS file named `styles.css` in your project directory.
-2. [ ] Link the newly created CSS file to your `index.html` file by adding the following line within the `<head>` section:
+1. [/] Create a new CSS file named `styles.css` in your project directory.
+2. [/] Link the newly created CSS file to your `index.html` file by adding the following line within the `<head>` section:
 
     ```html
     <link rel="stylesheet" href="styles.css">
